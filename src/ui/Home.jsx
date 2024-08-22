@@ -18,7 +18,7 @@ function Home() {
       {username === ' ' ? (
         <CreateUser />
       ) : (
-        <Button to="/test-vite/menu" type="primary">
+        <Button to="/menu" type="primary">
           Continue ordering,{username}
         </Button>
       )}
