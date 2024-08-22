@@ -18,7 +18,7 @@ function Home() {
       {username === ' ' ? (
         <CreateUser />
       ) : (
-        <Button to="/menu" type="primary">
+        <Button to="/Vite-React-App_Restaurant/menu" type="primary">
           Continue ordering,{username}
         </Button>
       )}
