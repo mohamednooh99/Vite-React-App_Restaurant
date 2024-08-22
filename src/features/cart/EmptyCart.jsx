@@ -3,7 +3,9 @@ import LinkButton from '../../ui/LinkButton';
 function EmptyCart() {
   return (
     <div>
-      <LinkButton to="/menu">&larr; Back to menu</LinkButton>
+      <LinkButton to="/Vite-React-App_Restaurant/menu">
+        &larr; Back to menu
+      </LinkButton>
 
       <p className="mt-10 font-semibold">
         Your cart is still empty. Start adding some pizzas :)

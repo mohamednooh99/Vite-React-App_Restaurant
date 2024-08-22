@@ -20,7 +20,7 @@ function Cart() {
         ))}
       </ul>
       <div className="my-6 space-x-2">
-        <Button to="/order/new" type="primary">
+        <Button to="/Vite-React-App_Restaurant/order/new" type="primary">
           {' '}
           Order pizzas{' '}
         </Button>
