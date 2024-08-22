@@ -28,7 +28,7 @@ const router = createBrowserRouter([
       },
       { path: '/Vite-React-App_Restaurant/cart', element: <Cart /> },
       {
-        path: '/Vite-React-App_Restaurant/new',
+        path: '/Vite-React-App_Restaurant/order/new',
         element: <CreateOrder />,
         action: createOrderAction,
       },
