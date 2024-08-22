@@ -13,26 +13,27 @@ import Error from './ui/Error';
 // createBrowserRouter fun below is recommended more than old way of React Router
 const router = createBrowserRouter([
   {
+    path: '/test-vite/',
     element: <AppLayout />,
     children: [
       {
-        path: '/',
+        path: '/test-vite/',
         element: <Home />,
       },
       {
-        path: '/menu',
+        path: '/test-vite/menu',
         element: <Menu />,
         loader: menuLoader,
         errorElement: <Error />,
       },
-      { path: '/cart', element: <Cart /> },
+      { path: '/test-vite/cart', element: <Cart /> },
       {
-        path: '/order/new',
+        path: '/test-vite/order/new',
         element: <CreateOrder />,
         action: createOrderAction,
       },
       {
-        path: '/order/:orderId',
+        path: '/test-vite/order/:orderId',
         element: <Order />,
         loader: orderLoader,
         errorElement: <Error />,
