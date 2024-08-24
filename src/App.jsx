@@ -33,7 +33,7 @@ const router = createBrowserRouter([
         action: createOrderAction,
       },
       {
-        path: '/Vite-React-App_Restaurant/:orderId',
+        path: '/Vite-React-App_Restaurant/order/:orderId',
         element: <Order />,
         loader: orderLoader,
         errorElement: <Error />,

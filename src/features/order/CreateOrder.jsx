@@ -109,6 +109,6 @@ export async function action({ request }) {
       'please give us your correct phone number. we might need it to contact you .';
   if (Object.keys(errors).length > 0) return errors;
   // if everything is okay , create new order and redirect
-  return redirect(`/order/${newOrder.id}`);
+  return redirect(`/Vite-React-App_Restaurant/order/${newOrder.id}`);
 }
 export default CreateOrder;

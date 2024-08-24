@@ -9,7 +9,7 @@ export default function Search() {
   function handelSubmit(e) {
     e.preventDefault();
     if (!query) return;
-    navigate(`/order/${query}`);
+    navigate(`/Vite-React-App_Restaurant/order/${query}`);
     setQuery('');
   }
   return (
